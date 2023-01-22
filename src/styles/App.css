@@ -1,0 +1,65 @@
+.App {
+  font-family: "Roboto", cursive;
+  text-align: center;
+  color: var(--main-colour);
+  padding: 10px;
+  overflow: hidden;
+  max-width: 950px;
+  margin: 0 auto;
+  text-shadow: var(--text-glow);
+}
+section {
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px var(--shadow-colour);
+  padding: 20px 30px;
+  margin: 10px;
+  background-color: var(--background-colour);
+}
+.App h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.App p {
+  font-size: 30px;
+}
+.App form {
+  margin: 5px;
+}
+.App input {
+  font-size: 20px;
+  color: var(--main-colour);
+  padding: 7px 15px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid var(--main-colour);
+  background-color: var(--background-colour);
+  box-shadow: 1px 1px 1px var(--shadow-colour);
+}
+.App button {
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 50px;
+  border: 1px solid var(--main-colour);
+  color: var(--main-colour);
+  font-weight: bold;
+  background-color: var(--background-colour);
+  margin: 5px;
+  box-shadow: 1px 1px 1px var(--shadow-colour);
+  transition: all 150ms ease-in-out;
+}
+.App button:hover {
+  color: var(--background-colour);
+  background-color: var(--main-colour);
+}
+.App footer {
+  color: var(--main-colour);
+  font-size: 20px;
+  margin-top: 10px;
+}
+.App a {
+  text-decoration: none;
+  color: var(--main-colour);
+}
+.App a:hover {
+  text-decoration: underline;
+}

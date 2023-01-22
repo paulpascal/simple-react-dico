@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+}
+:root {
+  --main-colour: rgb(168, 35, 181);
+  --background-colour: rgba(217, 191, 223, 0.8);
+  --shadow-colour: rgba(123, 22, 133, 0.5);
+  --text-glow: 0 0 10px rgb(252, 234, 253), 0 0 10px rgb(201, 6, 255);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
