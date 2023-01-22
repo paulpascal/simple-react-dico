@@ -1,0 +1,11 @@
+.Synonyms {
+  margin: 10px 20px;
+}
+.Synonyms span {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid rgba(63, 113, 252, 0.7);
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px rgba(9, 19, 44, 0.5);
+}

@@ -1,0 +1,16 @@
+.Photos {
+  text-align: left;
+  padding: 20px 30px;
+  margin: 0 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+.Photos img {
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px var(--shadow-colour);
+}

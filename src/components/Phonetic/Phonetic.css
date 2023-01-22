@@ -1,0 +1,10 @@
+.Phonetic p {
+  margin: 10px;
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Phonetic .react-audio-player {
+  max-width: 80%;
+}

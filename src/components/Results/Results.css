@@ -1,0 +1,9 @@
+.Results {
+  text-align: left;
+  padding: 10px 20px;
+}
+.Results h2 {
+  text-transform: capitalize;
+  margin-left: 10px;
+  font-size: 40px;
+}
